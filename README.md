@@ -7,6 +7,7 @@ This is a repository with the Boilerplate for Node.js consisting of all the nece
 1. `express`
 2. `mongoose`
 3. `body-parser`
+4. `dotenv`
 
 **Dev Dependencies**
 
