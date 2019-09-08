@@ -7,10 +7,8 @@ This is a repository with the Boilerplate for Node.js consisting of all the nece
 1. `express`
 2. `mongoose`
 3. `body-parser`
-4. `jsonwebtoken`
-5. `bcryptjs`
 
 **Dev Dependencies**
 
-1. `eslint`
+1. `ESLint Config`
 2. `nodemon`
