@@ -1,3 +1,6 @@
 # Directories
 .vscode
 /node_modules
+
+# Misc
+.env
