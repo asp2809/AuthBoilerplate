@@ -16,7 +16,6 @@ This is a repository with the Boilerplate for Node.js consisting of all the nece
 
 ## Getting Started
 
-<hr>
 To get started by running the boilerplate locally, run the following commands:
 
 ```
