@@ -4,6 +4,8 @@ const mongoose = require("mongoose");
 const app = express();
 
 const bodyParser = require("body-parser");
+const jwt = require("./jwt");
+const user = require("./api/user/user");
 
 // dotenv Config
 require("dotenv").config();
@@ -15,6 +17,8 @@ const db = process.env.MONGO_URI;
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+app.use(jwt());
+
 // Connect to MongoDB
 mongoose
   .connect(db)
@@ -22,6 +26,7 @@ mongoose
   .catch(err => console.log(err));
 
 // Use Routes
+app.use("/api/users", user);
 
 const port = process.env.PORT || 5000;
 
